@@ -14,7 +14,7 @@ Desenvolver colaborativamente um algoritmo em Portugol de soma, subtração, sub
 - Iniciou o agente ssh e testou a conexão, pois já havia configurado uma chave.
 - Criou e acessou a pasta para clonar o repositório.
 - Criou o arquivo `algoritmo.por` com a estrutura inicial:
-programa {
+ ``` programa {
   funcao inicio() {
     //Primeira parte -----------------------------------
     inteiro n1, n2, resp, soma, sub
@@ -26,6 +26,7 @@ programa {
     leia(resp)
 }
 }
+ ``` 
 - Adicionou as mudanças no commit
 - Criou uma mensagem descritiva
 - Enviou para a branch main
@@ -58,6 +59,7 @@ programa {
 Todos os comandos foram executados via terminal utilizando chave SSH:
 
 ### Comandos de Eliziane
+ ``` 
 - Iniciando o agente ssh e testando conexão:
   
 Lizi@lizi MINGW64 ~
@@ -153,12 +155,13 @@ Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To github.com:el1ziane/avaliacao.git
    7681ba3..876a0ec  main -> main
-
+ ``` 
 
 
 
 
 ### Comandos de Felipe
+ ``` 
 compuni@maker300 MINGW64 ~
 $ git config --global user.name
 
@@ -277,7 +280,7 @@ Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To github.com:el1ziane/avaliacao.git
    876a0ec..e9161d5  main -> main
-
+ ``` 
 
 
 ## Observações
