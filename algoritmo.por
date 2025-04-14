@@ -22,5 +22,15 @@ programa {
       mult = n1 * n2
       escreva("Resultado: ", mult)
     }
+     senao se (resp == 4) {
+      se (n2 != 0) {
+        div = n1 / n2
+        escreva("Resultado: ", div)
+      }
+      senao {
+        escreva("Erro: divisão por zero não é permitida.")
+      }
 
+    	}
+    }
   }
